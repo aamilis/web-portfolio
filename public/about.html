@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="author" content="Camila Jorquera">
+    <meta name="copyright" content="Camila Jorquera">
+    <meta name="keywords" content="Camila Jorquera, diseño, ux, ui, portafolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="css/tailwind.css">
+    <title>Camila Jorquera</title>
+</head>
+
+<body class="bg-slate-50 font-body">
+    
+    <header>
+        <nav>
+            <div class="menu flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4">
+                <div class="p-4">
+                    <a class="font-body font-bold text-gray-900" href="index.html">Camila Jorquera</a>
+                </div>
+                <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+                    <ul class="p-4 md:inline-flex md:flex-row md:space-x-8">
+                    
+                        <li>
+                            <a class="block hover:text-lavender-500" href="index.html#portafolio">Portafolio</a>  
+                        </li>
+                        
+                        <li>
+                            <a class="block hover:text-lavender-500" href="/about.html">Sobre mí</a>
+                        </li>
+                        
+                        <li>
+                            <a class="block hover:text-lavender-500" href="index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>    
+                </div>
+                
+            </div>   
+        </nav>
+    </header>
+    
+    <!-- End of desktop navigation menu -->
+    
+    <!-- Hero section -->
+    <div class="mx-6 sm:mx-20 md:mx-4 lg:mx-14 xl:mx-30 2xl:mx-48 my-0 md:my-10 lg:my-20 2xl:my-10 md:grid grid-cols-2 place-items-center justify-items-stretch md:gap-4 lg:gap-10">
+        <div>
+            <img src="images/about_hero.png" alt="collage">
+        </div>
+        
+        <div>
+            <h1 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-display font-black text-zinc-900">¡Hola! Soy Camila</h1>
+            <p class="text-xs sm:text-sm lg:text-base mt-2 sm:mt-4 lg:mt-6 text-zinc-700">Estudié ingeniería en diseño de productos en la UTFSM, donde me interioricé con el design thinking como proceso creativo, ahí aprendí la importancia de desarrollar productos que respondan a necesidades reales de los usuarios y no solo a las hipótesis.<br>
+                <br>
+                Tengo experiencia trabajando en el desarrollo de productos digitales para startups de innovación tecnológica. Tanto mi formación académica como laboral siempre han estado ligadas a aspectos del diseño UX/UI. Me motiva crear a través del diseño productos y experiencias impacten positivamente la vida de las personas.<br>
+                </p>
+            <div class="mt-4 sm:mt-5 md:mt-6 space-x-4">
+                <a href="#contacto" class="button-primary">Revisar CV</a>
+                <a href="#" class="button-secondary">Otros Trabajos</a>
+            </div>
+        </div>
+    </div>    
+    <div class="mx-6 sm:mx-20 md:mx-4 lg:mx-14 xl:mx-30 2xl:mx-48 my-0 md:my-10 lg:my-20 2xl:my-10 md:grid grid-cols-2 place-items-center justify-items-stretch md:gap-4 lg:gap-10">
+        <div class="md:hidden flex mt-16">
+            <img src="images/about.png" alt="collage">
+        </div>
+        <div>
+            <p class="text-xs sm:text-sm lg:text-base mt-2 sm:mt-4 lg:mt-6 text-zinc-700"> Me caracterizo por ser una persona creativa, empática y muy curiosa, con gran interés en aprender cosas nuevas que me ayuden a desarrollarme de manera profesional y personal.<br> 
+                <br>
+                En mi tiempo libre usualmente leo cómics o mangas, estudio japonés, juego videojuegos o veo series en compañía de mi gata Tsuki.
+                </p>
+            <div class="flex flex-row items-center mt-10 space-x-10">
+                <a href="https://www.goodreads.com/aamilis" target="_blank"><img src="/images/goodreads.png" alt="goodreads" class="hover:scale-105"></a>
+                <a href="https://steamcommunity.com/id/aamilis/" target="_blank"><img src="/images/steam.png" alt="steam" class="hover:scale-105"></a>
+            </div>
+        </div>
+        <div class="hidden md:flex">
+            <img src="images/about.png" alt="collage">
+        </div>
+    </div>    
+           
+    <!-- End of hero section -->
+    
+    <!-- Footer -->
+      <footer>
+          <div class="footer">
+            <div class="flex flex-row justify-center items-center m-16 space-x-10">
+              <a href="https://api.whatsapp.com/send/?phone=56977438913&text&app_absent=0" target="_blank"><img src="/images/whatsapp45.png" alt="whatsapp" class="hover:scale-105"></a>
+              <a href="#contacto"><img src="/images/email45.png" alt="correo" class="hover:scale-105"></a>
+              <a href="https://www.linkedin.com/in/camila-jorquera-ram%C3%ADrez-747726149/" target="_blank"><img src="/images/linkedin45.png" alt="linkedin" class="hover:scale-105"></a>
+            </div>  
+            <p class="text-xs text-center text-white">© 2022 Desarrollado por Camila Jorquera. Todos los derechos reservados</p>            
+          </div>
+          
+      </footer>
+    <!-- End of footer -->
+
+    <!-- Hidden Hamburger -->
+    <div>
+        <div class="flex md:hidden">
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                   <div class="line line-1"></div> 
+                   <div class="line line-2"></div> 
+                   <div class="line line-3"></div> 
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html#portafolio" class="nav-link">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/about.html" class="nav-link">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+    </div>
+</body>
+<script>
+    const menuIcon = document.querySelector('.hamburger-menu');
+    const navbar = document.querySelector('.navbar');
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('change');
+    });
+</script>
+</html>

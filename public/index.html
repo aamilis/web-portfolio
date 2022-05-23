@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="author" content="Camila Jorquera">
+    <meta name="copyright" content="Camila Jorquera">
+    <meta name="keywords" content="Camila Jorquera, diseño, ux, ui, portafolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="./css/tailwind.css">
+    <title>Camila Jorquera</title>
+</head>
+
+<body class="bg-slate-50 font-body">
+    
+    <header>
+        <nav>
+            <div class="menu flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4">
+                <div class="p-4">
+                    <a class="font-body font-bold text-gray-900" href="index.html">Camila Jorquera</a>
+                </div>
+                <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+                    <ul class="p-4 md:inline-flex md:flex-row md:space-x-8">
+                    
+                        <li>
+                            <a class="block hover:text-lavender-500" href="#portafolio">Portafolio</a>  
+                        </li>
+                        
+                        <li>
+                            <a class="block hover:text-lavender-500" href="/about.html">Sobre mí</a>
+                        </li>
+                        
+                        <li>
+                            <a class="block hover:text-lavender-500" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>   
+        </nav>
+    </header>
+    
+    <!-- End of desktop navigation menu -->
+    
+    <!-- Hero section -->
+    <div class="mx-6 sm:mx-20 md:mx-4 lg:mx-14 xl:mx-30 2xl:mx-48 my-0 md:my-10 lg:my-20 2xl:my-10 md:grid grid-cols-2 place-items-center justify-items-stretch md:gap-4 lg:gap-10">
+        <div>
+            <img src="images/hero_image.png" alt="collage">
+        </div>
+        
+        <div>
+            <h1 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-display font-black text-zinc-900">¡Hola! Soy Camila</h1>
+            <p class="text-xs sm:text-sm lg:text-base mt-2 sm:mt-4 lg:mt-6 text-zinc-700">Soy ingeniera en diseño de productos con experiencia trabajando en el diseño de productos digitales. Para mí el diseño es una herramienta que puede impactar positivamente en la vida de las personas y busco constantemente aprender cosas nuevas que me permitan lograrlo.</p>
+            <div class="mt-4 sm:mt-5 md:mt-6 space-x-4">
+                <a href="#contacto" class="button-primary">Contactar</a>
+                <a href="/about.html" class="button-secondary">Sobre mí</a>
+            </div>
+        </div>
+    </div>        
+           
+    <!-- End of hero section -->
+    
+    <!-- Portfolio section -->
+    <h2 class="font-display font-black text-zinc-900 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl mt-16 md:mt-0" id="portafolio">Portafolio</h2>
+    <hr class="mt-2 lg:mt-4 underline">
+    <div class="flex flex-inline flex-col w-auto mx-6 sm:mx-20 md:mx-4 lg:mx-14 xl:mx-30 2xl:mx-48 my-6 md:my-8 lg:my-10 space-y-4 sm:space-y-6 xl:space-y-8">
+        <div class="flex flex-col items-center bg-white-pointer-100 rounded-xl sm:rounded-2xl md:rounded-3xl p-2 md:p-6 xl:p-8 md:flex-row md:justify-evenly">
+            <div class="order-last md:order-first mx-6 sm:mx-8 md:mx-0 md:w-auto lg:w-96">
+                <h3 class="font-display font-bold text-zinc-900 text-base md:text-lg lg:text-xl xl:text-2xl">Xompass CAD</h3>
+                <p class=" text-zinc-700 text-xs sm:text-sm lg:text-base md:mt-4">Plataforma de visualización y gestión de alertas de seguridad en tiempo real</p>
+                <div class="md:mt-4">
+                    <a href="/xompass.html" class="text-lavender-500 font-semibold text-xs md:text-sm">Ver Proyecto >></a>
+                </div>
+            </div>
+            <div class="flex-initial order-first md:order-last scale-90 md:transform-none">
+                <img src="/images/xompass_cad.png" alt="proyecto xompass">
+            </div>
+            
+         </div>
+         <div class="flex flex-col items-center bg-white-pointer-100 rounded-xl sm:rounded-2xl md:rounded-3xl p-2 md:p-6 xl:p-8 md:flex-row md:justify-evenly">
+            <div class="order-last md:order-first mx-6 sm:mx-8 md:mx-0 md:w-auto lg:w-96">
+                <h3 class="font-display font-bold text-zinc-900 text-base md:text-lg lg:text-xl xl:text-2xl">Vsaas Suite</h3>
+                <p class="text-zinc-700 text-xs sm:text-sm lg:text-base md:mt-4">Plataforma que permite gestionar y acceder a todos los servicios contratados por clientes</p>
+                <div class="mt-4">
+                    <a href="/vsaas.html" class="text-lavender-500 font-semibold text-xs md:text-sm">Ver Proyecto >></a>
+                </div>
+            </div>
+            <div class="flex-initial order-first md:order-last scale-90 md:transform-none">
+                <img src="/images/vsaas_suite.png" alt="proyecto vsaas">
+            </div>
+            
+         </div>
+         <div class="flex flex-col items-center bg-white-pointer-100 rounded-xl sm:rounded-2xl md:rounded-3xl p-2 md:p-6 xl:p-8 md:flex-row md:justify-evenly">
+            <div class="order-last md:order-first mx-6 sm:mx-8 md:mx-0 md:w-auto lg:w-96">
+                <h3 class="font-display font-bold text-zinc-900 text-base md:text-lg lg:text-xl xl:text-2xl">Diseños Varios</h3>
+                <p class="text-zinc-700 text-xs sm:text-sm lg:text-base md:mt-4">Diseño de iconos, diagramas y mockups de aplicaciones</p>
+                <div class="mt-4">
+                    <a href="/misc.html" class="text-lavender-500 font-semibold text-xs md:text-sm">Ver Proyecto >></a>
+                </div>
+            </div>
+            <div class="flex-initial order-first md:order-last scale-90 md:transform-none">
+                <img src="/images/other_designs.png" alt="diseños varios">
+            </div>
+         </div>
+    </div>
+    <!-- End of Portfolio -->
+    
+    <!-- Contact section -->
+    <h2 class="font-display font-black text-zinc-900 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl mt-16 md:mt-0" id="contacto">Contacto</h2>
+    <hr class="mt-2 md:mt-4 underline">
+    <div class="mx-6 sm:mx-20 md:mx-4 lg:mx-14 xl:mx-30 2xl:mx-48 my-10 lg:my-20 2xl:my-10 flex flex-col md:flex-row place-items-center md:justify-between md:gap-8 lg:gap-16">
+        <div class="flex flex-col mt-6 md:mt-0 w-80 md:w-72 lg:w-80 xl:w-96">
+            <h3 class="font-display font-bold text-base md:text-lg lg:text-xl xl:text-2xl text-zinc-900">¡Hablemos!</h3>
+            <p class="text-zinc-700 text-xs sm:text-sm lg:text-base mt-2 md:mt-4">Si mi perfil te pareció interesante envíame un mensaje y conversemos</p>
+            <form action="https://formsubmit.co/aamilis.x@gmail.com" method="POST">
+                <label class="block text-lavender-500 font-semibold text-xs sm:text-sm lg:text-base mt-2 md:mt-4 mb-2" for="nombre">Nombre</label>
+                  <input type="hidden" name="_next" value="http://localhost:3000/">
+                  <input type="hidden" name="asunto" value="Nuevo Mensaje!">
+                  <input class="shadow appearance-none border rounded-xl w-80 md:w-72 lg:w-80 xl:w-96 py-2 px-3 bg-moon-raker-100 border-lavender-400 text-zinc-700 text-xs lg:text-sm leading-tight focus:outline-none focus:border-caribbean-green-500" name="name" type="text" placeholder="Nombre" required>
+                  <label class="block text-lavender-500 font-semibold text-xs sm:text-sm lg:text-base mt-2 md:mt-4 mb-2" for="email">Correo</label>
+                  <input class="shadow appearance-none border rounded-xl w-80 md:w-72 lg:w-80 xl:w-96 py-2 px-3 bg-moon-raker-100 border-lavender-400 text-zinc-700 text-xs lg:text-sm leading-tight focus:outline-none focus:border-caribbean-green-500" name="email" type="email" placeholder="e-mail@hola.com" required>
+                  <label class="block text-lavender-500 font-semibold text-xs sm:text-sm lg:text-base mt-2 md:mt-4 mb-2" for="mensaje">Mensaje</label>
+                  <textarea class="shadow appearance-none border rounded-xl w-80 md:w-72 lg:w-80 xl:w-96 py-2 px-3 bg-moon-raker-100 border-lavender-400 text-zinc-700 text-xs lg:text-sm leading-tight focus:outline-none focus:border-caribbean-green-500" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                  <div class="mt-4 lg:mt-6 space-x-4">
+                    <button type="submit" class="inline-block rounded-full px-4 py-2 bg-lavender-500 font-semibold text-xs md:text-sm text-white hover:bg-lavender-600 focus:bg-lavender-600 focus:ring focus:ring-inset focus:ring-lavender-400">Enviar Mensaje</button>
+                  </div>
+            </form>
+        </div>
+        <div class="flex-initial order-first md:order-last">
+            <img src="/images/contact.png" alt="collage contacto">
+        </div>
+    </div>
+    <!-- End of Contact -->
+    
+    <!-- Footer -->
+      <footer>
+          <div class="footer">
+            <div class="flex flex-row justify-center items-center m-16 space-x-10">
+              <a href="https://api.whatsapp.com/send/?phone=56977438913&text&app_absent=0" target="_blank"><img src="/images/whatsapp45.png" alt="whatsapp" class="hover:scale-105"></a>
+              <a href="#contacto"><img src="/images/email45.png" alt="correo" class="hover:scale-105"></a>
+              <a href="https://www.linkedin.com/in/camila-jorquera-ram%C3%ADrez-747726149/" target="_blank"><img src="/images/linkedin45.png" alt="linkedin" class="hover:scale-105"></a>
+            </div>  
+            <p class="text-xs text-center text-white">© 2022 Desarrollado por Camila Jorquera. Todos los derechos reservados</p>            
+          </div>
+          
+      </footer>
+    <!-- End of footer -->
+
+    <!-- Hidden Hamburger -->
+    <div>
+        <div class="flex md:hidden">
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                   <div class="line line-1"></div> 
+                   <div class="line line-2"></div> 
+                   <div class="line line-3"></div> 
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html#portafolio" class="nav-link">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/about.html" class="nav-link">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+    </div>
+</body>
+<script>
+    const menuIcon = document.querySelector('.hamburger-menu');
+    const navbar = document.querySelector('.navbar');
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('change');
+    });
+</script>
+</html>
