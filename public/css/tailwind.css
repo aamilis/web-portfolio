@@ -417,7 +417,7 @@
 
     @media (max-width: 640px){
         .slider{
-            width: 397px;
+            width: 380px;
             height: 350px;
         } 
         .slider .slide img{
